@@ -13,7 +13,7 @@ def operation(earnings,food,clothing,transportation,social_activities):
         print("You suck!You're at a " + str(remaining) + " deficit" )
         
     elif remaining > 0: 
-        print("Congratulations! You still have " + str(remaining) + "$ to spend")
+        print("Congratulations! You still have " + "$" + str(remaining) + " to spend")
 
 
     elif remaining == 0:
